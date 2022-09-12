@@ -1,0 +1,30 @@
+:root {
+  --clr-primary-100: hsl(30, 38%, 92%);
+  --clr-primary-400: hsl(158, 36%, 37%);
+
+  --clr-neutral-100: hsl(0, 0%, 100%);
+  --clr-neutral-400: hsl(228, 12%, 48%);
+  --clr-nuetral-700: hsl(212, 21%, 14%);
+
+  /* fonts */
+  --ff-primary-500: "Montserrat", sans-serif;
+  --ff-accent: "Fraunces", serif;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 14px;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
