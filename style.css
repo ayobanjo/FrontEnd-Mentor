@@ -40,6 +40,9 @@ body {
   justify-content: center;
   padding: 1.5rem;
 }
+main {
+  margin-bottom: 20px;
+}
 
 .img {
   border-radius: 15px 15px 0 0;
@@ -51,6 +54,11 @@ body {
 }
 .content {
   background-color: var(--clr-neutral-100);
+  /* padding: 1.4rem; if container is removed */
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
   padding: 1.4rem;
 }
 .span {
