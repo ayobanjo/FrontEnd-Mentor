@@ -85,16 +85,16 @@ main {
 i {
   margin-right: 0.3rem;
 }
-small {
+.span_2 {
   font-family: var(--ff-primary-500);
   text-decoration: line-through;
   display: block;
   color: var(--clr-neutral-400);
+  margin-left: 1em;
 }
 .aside {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 .btn {
   background-color: var(--clr-primary-400);
@@ -120,7 +120,12 @@ small {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 500px) {
+@media (min-width: 376px) {
+  .img {
+    border-radius: 0 0 0 0;
+    height: 100%;
+  }
+
   main {
     display: flex;
   }
