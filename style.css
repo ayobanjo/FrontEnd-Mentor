@@ -91,6 +91,7 @@ i {
   display: block;
   color: var(--clr-neutral-400);
   margin-left: 1em;
+  font-size: 11px;
 }
 .aside {
   display: flex;
@@ -124,6 +125,9 @@ i {
   .img {
     border-radius: 0 0 0 0;
     height: 100%;
+  }
+  img {
+    content: url(./images/image-product-desktop.jpg);
   }
 
   main {
