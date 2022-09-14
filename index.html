@@ -28,11 +28,21 @@
   <body>
     <main class="main">
       <div class="hero">
-        <img
-          class="img"
-          src="./images/image-product-mobile.jpg"
-          alt="Bottle of perfume"
-        />
+        <picture>
+          <source
+            media="(max-width:499px)"
+            srcset="./images/image-product-mobile.jpg"
+          />
+          <source
+            media="(min-width: 500px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img
+            src="./images/image-product-mobile.jpg"
+            alt="Bottle of perfume"
+            class="img"
+          />
+        </picture>
       </div>
       <div class="content">
         <div class="container">
