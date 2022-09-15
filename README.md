@@ -80,7 +80,7 @@ I would like to use JS to change the images upon screen resize, so definitely wi
 ## Author
 
 - GitHub - [Funsho Ayobanjo](https://github.com/ayobanjo)
-- Frontend Mentor - [@](https://www.frontendmentor.io/profile/ayobanjo)
+- Frontend Mentor - [@ayobanjo](https://www.frontendmentor.io/profile/ayobanjo)
 - Twitter - [@AyobanjoFunsho](https://www.twitter.com/ayobanjofunsho)
 
 ## Acknowledgments
