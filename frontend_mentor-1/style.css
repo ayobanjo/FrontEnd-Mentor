@@ -116,8 +116,10 @@ i {
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
+  font-family: var(--ff-primary-500);
+  font-weight: 700;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
