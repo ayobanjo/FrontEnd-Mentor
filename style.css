@@ -28,7 +28,7 @@ h1,
 h2 {
   font-family: var(--ff-accent);
   font-weight: 700;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 body {
@@ -98,6 +98,7 @@ i {
 .aside {
   display: flex;
   align-items: center;
+  margin: 20px 0;
 }
 .btn {
   background-color: var(--clr-primary-400);
@@ -126,7 +127,7 @@ i {
   color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 376px) {
+@media (min-width: 565px) {
   .img {
     border-radius: 10px 0 0 10px;
     height: 100%;
