@@ -135,6 +135,9 @@ i {
   img {
     content: url(./images/image-product-desktop.jpg);
   }
+  picture {
+    display: inline;
+  }
   body {
     min-height: 100vh;
   }
